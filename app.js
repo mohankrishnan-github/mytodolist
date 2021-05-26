@@ -25,6 +25,6 @@ app.post("/",function(req,res){
 
 
 
-app.listen(3000,function(){
+app.listen(Process.env.PORT || 3000,function(){
   console.log("server working fine");
 });
